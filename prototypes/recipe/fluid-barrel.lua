@@ -230,3 +230,19 @@ data:extend(
 	}	
 }
 )
+
+if data.raw["item-subgroup"]["liquid-recipe2"] then
+data.raw.recipe["fill-water-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["fill-sulfuric-acid-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["fill-petroleum-gas-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["fill-lubricant-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["fill-heavy-oil-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["fill-light-oil-barrel"].subgroup = "liquid-recipe2"
+
+data.raw.recipe["empty-water-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["empty-sulfuric-acid-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["empty-petroleum-gas-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["empty-lubricant-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["empty-heavy-oil-barrel"].subgroup = "liquid-recipe2"
+data.raw.recipe["empty-light-oil-barrel"].subgroup = "liquid-recipe2"
+end
