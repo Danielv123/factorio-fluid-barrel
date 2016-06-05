@@ -1,0 +1,8 @@
+{
+  "name": "fluid-barrel",
+  "version": "1.0.0",
+  "title": "Fluid Barrel",
+  "author": "Firegrenade",
+  "dependencies": ["base >= 0.11.8"],
+  "description": "Allows for all fluids to be added to barrels and transported as an item."
+}
