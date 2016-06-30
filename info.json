@@ -1,8 +1,9 @@
 {
   "name": "fluid-barrel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Fluid Barrel",
-  "author": "Firegrenade",
-  "dependencies": ["base >= 0.11.8", "? 5dim_core >= 3.1.0"],
+  "author": "Firegrenade, updated by Danielv123",
+  "dependencies": ["base >= 0.13.0", "? 5dim_core >= 3.1.0"],
+  "factorio_version": "0.13",
   "description": "Allows for all fluids to be added to barrels and transported as an item."
 }
